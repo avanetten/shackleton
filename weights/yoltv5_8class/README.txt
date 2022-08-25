@@ -1,0 +1,1 @@
+These weights correspond to the cfg file: shackleton/cfg/yoltv5_8class_test_studio_lab.yaml

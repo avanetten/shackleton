@@ -1,0 +1,1 @@
+These weights correspond to the cfg file: ../cfg/cresi_8class_test_studio_lab.json

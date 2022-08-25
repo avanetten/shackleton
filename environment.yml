@@ -1,0 +1,20 @@
+# conda env create --file environment.yml
+# conda activate shackleton
+name: shackleton
+channels:
+- conda-forge
+- defaults
+dependencies:
+- localtileserver
+- jupyterlab
+- bokeh
+- ipyleaflet
+- nb_conda_kernels
+- osmnx=0.12
+- scikit-image
+- statsmodels
+- pip
+- pip:
+  - folium
+  - rasterio
+  - utm
