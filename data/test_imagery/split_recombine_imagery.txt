@@ -1,0 +1,6 @@
+# split large image file of Dar Es Salaam (created by ../../notebooks/data_curation+inference.ipynb)
+mkdir test_image_split
+split -b 90m test1_realcog_clip.tif test_image_split/
+
+# re-combine image file
+cat test_image_split/* > test1_realcog_clip.tif
