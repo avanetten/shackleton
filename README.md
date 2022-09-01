@@ -38,7 +38,7 @@ Alternately, create this image from scratch via [data_curation+inference.ipynb](
 
 ## 2. Computer Vision Predictions
 
-In the [results](results/test1) folder we've included both CRESI and YOLTv5 predictions for our sample image, so we can simply use these results for the dashboard (next sectino).  To run these deep learning models from scratch, see [data_curation+inference.ipynb](notebooks/data_curation+inference.ipynb)
+In the [results](results/test1) folder we've included both CRESI and YOLTv5 predictions for our sample image, so we can simply use these results for the dashboard (next section).  To run these deep learning models from scratch, see [data_curation+inference.ipynb](notebooks/data_curation+inference.ipynb)
 
 ## 3. Execute Shackleton
 
@@ -52,6 +52,7 @@ Simply execute the following command in the _shackleton_ conda environment to fi
 
 This will invoke the interactive dashboard, which will look something like the image below:
 ![Alt text](/docs/imgs/dash1.png?raw=true "")
+
 
 -----
 
