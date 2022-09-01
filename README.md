@@ -4,7 +4,7 @@
 
 The Shackleton codebase leverages remote sensing imagery and machine learning techniques to provide insights into various transportation and evacuation scenarios in an interactive dashboard that conducts real-time computation.  This project extends the [Diet Hadrade](https://github.com/Geodesic-Labs/diet_hadrade) repository that provided static outputs, rather than Shackleton's ability to explore the data and predictions at will. 
 
-Shackleton provides a number of graph theory analytics that combine road graphs (extracted via [CRESI](https://github.com/avanetten/cresi)) with vehicle detections (via [YOLTv5](https://github.com/avanetten/yoltv5)) extracted from satellite imagery with advanced computer vision techniques.  This allows congestion to be estimated, as well as optimal lines of communication and evacuation scenarios.  We build these analystics into a [Bokeh](https://docs.bokeh.org/en/latest/) application, which permits exploration of the data and real-time computation of various scenarios:
+Shackleton provides a number of graph theory analytics that combine road graphs (extracted via [CRESI](https://github.com/avanetten/cresi)) with vehicle detections (via [YOLTv5](https://github.com/avanetten/yoltv5), which adapts [YOLOv5](https://github.com/ultralytics/yolov5) to handle satellite imagery) extracted from satellite imagery with advanced computer vision techniques.  This allows congestion to be estimated, as well as optimal lines of communication and evacuation scenarios.  We build these analystics into a [Bokeh](https://docs.bokeh.org/en/latest/) application, which permits exploration of the data and real-time computation of various scenarios:
 
 - Real-time road network status
 - Vehicle localization and classification
